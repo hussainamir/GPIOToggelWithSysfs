@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 import gpio
 from gpio import GPIO
