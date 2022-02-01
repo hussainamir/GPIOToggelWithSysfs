@@ -23,7 +23,6 @@ def parse_user_input(string_from_user):
     return pinX,pinY,enable_log
 
 def run_toggele(gpioX,gpioY,enable_log):
-    gpioY.high()
 
     while True:
         gpioX.low()
